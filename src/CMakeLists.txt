@@ -3,4 +3,5 @@ project(src C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(src main.c)
+add_executable(src main.c
+        Services/clycle/cycle.c)
